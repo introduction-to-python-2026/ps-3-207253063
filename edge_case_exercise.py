@@ -1,4 +1,4 @@
-def move(my_list, direction=None):
+def move(my_list, direction = None):
     index_of_one = my_list.index(1)
     list_length = len(my_list)
     if direction == 'right':
